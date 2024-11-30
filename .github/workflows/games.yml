@@ -54,4 +54,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/Rogue-Vikings/games:${{ matrix.game }}
+            ghcr.io/rogue-vikings/games:${{ matrix.game }}
