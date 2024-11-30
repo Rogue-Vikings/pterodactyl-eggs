@@ -55,4 +55,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/gameservershub-llc/alpha:${{ matrix.game }}
+            ghcr.io/Rogue-Vikings/alpha:${{ matrix.game }}

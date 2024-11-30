@@ -18,11 +18,11 @@ jobs:
   push:
     name: "testing:${{ matrix.game }}"
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
       packages: write
-    
+
     strategy:
       fail-fast: false
       matrix:
@@ -54,4 +54,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-             ghcr.io/gameservershub-llc/testing:${{ matrix.game }}
+            ghcr.io/Rogue-Vikings/testing:${{ matrix.game }}

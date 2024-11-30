@@ -52,4 +52,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/gameservershub-llc/steamcmd:${{ matrix.game }}
+            ghcr.io/Rogue-Vikings/steamcmd:${{ matrix.game }}
