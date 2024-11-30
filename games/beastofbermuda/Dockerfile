@@ -1,7 +1,7 @@
 FROM        --platform=$BUILDPLATFORM debian:bookworm-slim
 
-LABEL       author="Torsten Widmann" maintainer="info@goover.de"
-LABEL       org.opencontainers.image.source="https://github.com/gOOvER/own-pterodactyl-images"
+LABEL       author="MrOwlSky" maintainer="support@roguevikings.com"
+LABEL       org.opencontainers.image.source="https://github.com/Rogue-Vikings/pterodactyl-eggs"
 LABEL       org.opencontainers.image.licenses=AGPL
 LABEL       org.opencontainers.image.description Dockerimage for Pelican Hosting Panel and Pterodactyl
 # Update the repository and install needed packages
